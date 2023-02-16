@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+body {
+    background-color:rgb(156, 239, 241);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 110vh;
+    font-size: 15px;
+    color: blanchedalmond;
+    border-color: 30px blueviolet;
+    border-top-style: none;
+    border-bottom-left-radius: #db3232;
+    margin-bottom: 20px;
+
+    
+
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(15, 3, 83, 0.959);
+    padding: 5px;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgb(232, 6, 240);
+    border-color: blanchedalmond; 
+   
+
+}
+
+.name-field {
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+
+}
+.name-field div {
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+
+}
+
+label {
+    margin-bottom: 6px;
+
+}
+
+input {
+    margin-bottom: 0px;
+    padding: 0px;
+    outline: 0;
+    border: 1px solid bisque;
+    background-color: rgb(1, 1, 70);
+    color: bisque;
+    border: 2px solid hwb(18 80% 15%);
+    padding: 15px 20px;
+    font-size: 2rem;
+    border-radius: 10px;
+    background: transparent;
+    outline: none;
+    transition: .3s;
+
+}
+
+input:focus {
+    border: 1px solid rgb(228, 13, 146);
+
+}
+
+input[type="submit"]{
+    margin: 50px;
+    margin-top: 35px;
+    background-color:  rgb(13, 131, 228);
+    color: bisque; 
+    border: 1px solid #db3232;
+    cursor: pointer;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+}
+
+
+
+button {
+    background-position: center;
+    margin: 4px;
+    padding: 4px;
+    background-color:  rgb(218, 99, 3);
+    color: rgb(252, 251, 251);
+    border-color: rgb(247, 246, 245);
+    border-radius: 5px;
+    width: 430px;
+    height: 90px;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+
+
+}
+
+/*
+.input-group{
+    margin: 30px;
+    padding: 20px;
+    background-color:  rgb(5, 4, 80);
+    border-color: rgb(247, 246, 245);
+    border-radius: 5px;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 25px;
+
+}
+
+.input-group input{
+    width: 100%;
+    height: 100%;
+    border: 2px solid hwb(18 80% 15%);
+    padding: 15px 20px;
+    font-size: 1rem;
+    border-radius: 10px;
+    background: transparent;
+    outline: none;
+    transition: .3s;
+    background-color:  rgb(5, 4, 80);
+
+}
+
+.input-group textarea{
+    width: 100%;
+    height: 100%;
+    border: 2px solid hwb(18 80% 15%);
+    padding: 15px 20px;
+    font-size: 1rem;
+    border-radius: 10px;
+    background: transparent;
+    outline: none;
+    transition: .3s;
+
+}
+
+
+.input-group .btn{
+    display: block;
+    width: 20%;
+    padding: 10px 20px;
+    text-align: center;
+    border: none;
+    background: hwb(18 80% 15%);
+    outline: none;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    color: #fff;
+    cursor: pointer;
+    transition: .3s;
+    background-color:  rgb(5, 4, 80);
+}
+
+.input-group .btn:hover{
+    transform: translateY(-5px);
+    background-color:  rgb(5, 4, 80);
+}
+
+.rs{
+    position: relative;
+    right: 1rem;
+
+}
+
+.rs ul li .fa:hover{
+    transform: scale(1.2) rotate(360deg);
+    color: #ee12ee;
+    background: transparent;
+}
+ 
+*/
+.input-group {
+    margin: 20px;
+    padding: 20px;
+    background-color:  rgb(5, 4, 80);
+    border-color: rgb(247, 246, 245);
+    border-radius: 5px;
+    background-position: center;
+    
+}
+
+input .type-checkbox{
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    border-bottom: #db3232;
+    
+    margin: 50px;
+    margin-top: 35px;
+    background-color:  rgb(13, 131, 228);
+    color: bisque; 
+    border: 1px solid #db3232;
+    cursor: pointer;
+}
+
+h3{
+    color: blanchedalmond;
+}
+
+.group {
+    /*margin-top: -0px;
+    padding-top: -0px;
+    border-style:none;
+    border-top-style: none;
+    background-color: aliceblue;
+    color: aliceblue;
+    border-top:  aliceblue;
+    background-position: center;
+    border-style:solid;
+    border-top-style: solid;
+    margin: 0%;
+    padding: 0%;*/
+}
